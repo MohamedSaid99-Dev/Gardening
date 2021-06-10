@@ -1,0 +1,136 @@
+html,body{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+#ListContain{
+	padding: 0;
+	background-color: #fff;
+	border-right: 1px solid rgba(0, 0, 0, .125);
+}
+
+#InfContain{
+	background-color: white;
+}
+
+#roww{
+	height: 100%;
+}
+
+#firstListItem{
+	border-top-right-radius: unset;
+	border-top-left-radius: unset;
+}
+
+#lastListItem{
+	border-bottom-right-radius: unset;
+	border-bottom-left-radius: unset;
+}
+
+.list-group{
+	font-size: 36px;
+}
+
+.list-group-item.list-group-item-action.active{
+	background-color: #654321;
+	border-color: #654321;
+	color: #fff;
+}
+
+.list-group-item.list-group-item-action{
+	background-color: #fff;
+	color: #84694D;
+	border-right-width: 0;
+}
+
+.list-group-item.list-group-item-action:not(.active):focus, .list-group-item.list-group-item-action:not(.active):hover{
+	background-color: #EAE5E1;
+	color: #84694D;
+}
+
+.list-group-item.list-group-item-action:active{
+	background-color: #B19F8D;
+	color: #84694D;
+}
+
+.FIcon{
+	height: 42px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.IcoContainer{
+	position: relative;
+	width: 36px;
+	height: 48px;
+	float: left;
+	padding: 0 40px 0 20px;
+	margin: 5px 10px 0 0;
+}
+
+.svgCon{
+	display: inline-block;
+	margin: 10px 25px;
+	color: ForestGreen;
+}
+
+.bi{
+	width: 42px;
+	height: 42px;
+}
+
+.bi-arrow-left-circle-fill{
+	display: none;
+}
+
+.svgCon:hover .bi-arrow-left-circle-fill{
+	display: block;
+	color: ForestGreen;
+}
+
+.svgCon:hover .bi-arrow-left-circle{
+	display: none;
+}
+
+#svgCont{
+	height: 62px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 50px;
+}
+
+p{
+	width: 80%;
+	margin: 0 10%;
+}
+
+.descrip{
+	margin-top: 35px;
+}
+
+h4{
+	margin: 50px 15px 10px 15px;
+}
+
+li + li{
+	margin-top: 10px;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin: 45px 0 30px;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+}
